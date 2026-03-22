@@ -1,26 +1,47 @@
 <scheme name="ZEN Theme" version="142" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0" />
+    <metaInfo>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2025.2.5.0.0</property>
+        <property name="originalScheme">ZEN Theme</property>
+    </metaInfo>
+    <option name="LINE_SPACING" value="1.2" />
+    <option name="EDITOR_FONT_SIZE" value="13" />
+    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
     <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
-    <option name="CONSOLE_LINE_SPACING" value="1.2" />
     <colors>
-        <option name="CARET_COLOR" value="ffcb6b" />
-        <option name="CARET_ROW_COLOR" value="90b10" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="90b10" />
-        <option name="GUTTER_BACKGROUND" value="f111a" />
-        <option name="LINE_NUMBERS_COLOR" value="4b526d" />
-        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="b7bbcdca" />
-        <option name="METHOD_SEPARATORS_COLOR" value="b7bbcdca" />
-        <option name="SELECTION_BACKGROUND" value="717cb450" />
+        <option name="CARET_COLOR" value="FFCB6B" />
+        <option name="CARET_ROW_COLOR" value="090B10" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="090B10" />
+        <option name="DOCUMENTATION_COLOR" value="090B10" />
+        <option name="FOLDED_TEXT_BORDER_COLOR" value="090B10" />
+        <option name="GUTTER_BACKGROUND" value="090B10" />
+        <option name="HINT_BORDER" value="090B10" />
+        <option name="INDENT_GUIDE" value="181A28" />
+        <option name="INFORMATION_HINT" value="090B10" />
+        <option name="LINE_NUMBERS_COLOR" value="4B526D" />
+        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="B7BBCDCA" />
+        <option name="LOOKUP_COLOR" value="090B10" />
+        <option name="METHOD_SEPARATORS_COLOR" value="B7BBCDCA" />
+        <option name="PROMOTION_PANE" value="FF0000" />
+        <option name="QUESTION_HINT" value="FF0000" />
+        <option name="RECENT_LOCATIONS_SELECTION" value="4B526D" />
+        <option name="RIGHT_MARGIN_COLOR" value="181A28" />
+        <option name="SELECTED_INDENT_GUIDE" value="4B526D" />
+        <option name="SELECTED_TEARLINE_COLOR" value="090B10" />
+        <option name="SELECTION_BACKGROUND" value="717CB450" />
         <option name="SEPARATOR_BELOW_COLOR" value="" />
-        <option name="ScrollBar.hoverThumbColor" value="00ff00" />
-        <option name="ScrollBar.thumbColor" value="0000ff" />
-        <option name="VCS_ANNOTATIONS_COLOR_1" value="717cb450" />
-        <option name="VCS_ANNOTATIONS_COLOR_2" value="717cb450" />
-        <option name="VCS_ANNOTATIONS_COLOR_3" value="717cb450" />
-        <option name="VCS_ANNOTATIONS_COLOR_4" value="717cb450" />
-        <option name="VCS_ANNOTATIONS_COLOR_5" value="717cb450" />
-        <option name="WHITESPACES" value="b7bbcdca" />
-        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="717cb450" />
+        <option name="ScrollBar.hoverThumbColor" value="FF0000" />
+        <option name="ScrollBar.thumbColor" value="FF0000" />
+        <option name="TEARLINE_COLOR" value="090B10" />
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="717CB450" />
+        <option name="VCS_ANNOTATIONS_COLOR_2" value="717CB450" />
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="717CB450" />
+        <option name="VCS_ANNOTATIONS_COLOR_4" value="717CB450" />
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="717CB450" />
+        <option name="VISUAL_INDENT_GUIDE" value="181A28" />
+        <option name="WHITESPACES" value="4B526D" />
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="717CB450" />
     </colors>
     <attributes>
         <option name="CONSOLE_CYAN_OUTPUT">
@@ -51,7 +72,6 @@
             <value>
                 <option name="FOREGROUND" value="ffcb6b" />
                 <option name="EFFECT_COLOR" value="ffcb6b" />
-                <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
@@ -65,7 +85,8 @@
         <option name="FOLDED_TEXT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="b7bbcd" />
-                <option name="BACKGROUND" value="3a3a3a" />
+                <option name="BACKGROUND" value="181a28" />
+                <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -87,7 +108,7 @@
         </option>
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value>
-                <option name="BACKGROUND" value="ff0019" />
+                <option name="BACKGROUND" value="90b10" />
             </value>
         </option>
         <option name="KOTLIN_LABEL">
@@ -108,8 +129,15 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="b7bbcd" />
-                <option name="BACKGROUND" value="f111a" />
+                <option name="BACKGROUND" value="b111f" />
                 <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
+        <option name="WARNING_ATTRIBUTES">
+            <value>
+                <option name="EFFECT_COLOR" value="aeae80" />
+                <option name="ERROR_STRIPE_COLOR" value="be9117" />
+                <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
     </attributes>
