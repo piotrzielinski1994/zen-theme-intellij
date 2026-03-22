@@ -3,9 +3,9 @@
   "dark": true,
   "author": "Piotr Zieliński",
   "colors": {
-    "bgPanel": "#090b10",
-    "bgEditor": "#0f111a",
-    "textDefault": "#7b83a3",
+    "bgPanel": "#020511",
+    "bgEditor": "#0b111f",
+    "textDefault": "#ddefff",
     "textActive": "#b7bbcd",
     "textInactive": "#4b526d",
     "border": "#000000",
@@ -23,7 +23,8 @@
     "test10": "textDefault",
     "test11": "#00ff00",
     "test12": "textDisabled",
-    "test13": "textInactive"
+    "test13": "textInactive",
+    "terminalBg": "#ff0000"
   },
   "ui": {
     "*": {
@@ -42,16 +43,17 @@
       "borderColor": "border",
       "separatorColor": "border"
     },
+    "Terminal": {
+      "background": "terminalBg"
+    },
     "Borders": {
       "color": "border",
       "ContrastBorderColor": "border"
     },
-
     "Tree": {
       "selectionBackground": "bgEditor",
       "selectionInactiveBackground": "bgEditor",
       "selectionInactiveForeground": "textDefault",
-
       "modifiedItemForeground": "test"
     },
     "ToolWindow": {
@@ -60,13 +62,11 @@
         "inactiveBackground": "bgPanel"
       }
     },
-
     "EditorTabs": {
       "underlinedTabBackground": "bgPanel",
       "underlinedTabForeground": "textActive",
       "underlineHeight": 0
     },
-
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "bgEditor",
@@ -75,7 +75,6 @@
         "hoverTrackColor": "bgPanel"
       }
     },
-
     "Button": {
       "foreground": "textDefault",
       "startBorderColor": "bgEditor",
@@ -97,14 +96,12 @@
         "shadowColor": "border"
       }
     },
-
     "Link": {
       "activeForeground": "primary",
       "hoverForeground": "primary",
       "visitedForeground": "primary",
       "pressedForeground": "primary"
     },
-
     "ProgressBar": {
       "failedEndColor": "bgEditor",
       "trackColor": "bgEditor",
@@ -114,14 +111,10 @@
       "passedColor": "#00ff00",
       "passedEndColor": "bgEditor"
     },
-
     "MemoryIndicator": {
       "allocatedBackground": "bgPanel",
       "usedBackground": "bgEditor"
     },
-
-
-
     "ActionButton.focusedBorderColor": "test",
     "ActionButton.hoverBorderColor": "test1",
     "ActionButton.pressedBorderColor": "test2",
